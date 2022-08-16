@@ -10,6 +10,7 @@
 # General
 --------------------------------------------------------------*/
 
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #585a61;
@@ -20,17 +21,68 @@ a {
     text-decoration: none;
 }
 
+/* TagLine for landing Page */
 @media only screen and (max-width: 600px) {
-    .colourTest {
+    .tagLine {
+        color: white !important;
+        font-weight: lighter;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .tagLine {
+        color: #5F2224 !important;
+        font-weight: lighter;
+    }
+}
+
+
+/* Main headline of landing page */
+@media only screen and (max-width: 600px) {
+    .MainHeadline {
+        font-size: 25px !important; 
+        text-align: center;
         color: white !important;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    .colourTest {
+    .MainHeadline {
+        font-size: 40px !important;  
         color: #5F2224 !important;
     }
 }
+
+
+.createAccount {
+    border:1px solid #F8F3F0; 
+    border-radius: 7px; 
+    height:40px; 
+    width: 300px; 
+    margin-left:17%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .createAccount {
+        border:1px solid #F8F3F0; 
+        border-radius: 7px; 
+        height:40px; 
+        width: 300px; 
+        margin-left:17%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .createAccount {
+        border:1px solid #F8F3F0; 
+        border-radius: 7px; 
+        height:40px; 
+        width: 300px; 
+        margin-left:7%;
+    }
+}
+
 
 a:hover {
     color: #7b94c9;
