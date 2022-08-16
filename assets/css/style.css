@@ -54,13 +54,6 @@ a {
 }
 
 
-.createAccount {
-    border:1px solid #F8F3F0; 
-    border-radius: 7px; 
-    height:40px; 
-    width: 300px; 
-    margin-left:17%;
-}
 
 
 @media only screen and (max-width: 600px) {
