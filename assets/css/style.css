@@ -24,8 +24,9 @@ a {
 /* TagLine for landing Page */
 @media only screen and (max-width: 600px) {
     .tagLine {
-        color: white !important;
+        color: #F8F3F0 !important;
         font-weight: lighter;
+        font-size: 16px;
     }
 }
 
@@ -33,6 +34,7 @@ a {
     .tagLine {
         color: #5F2224 !important;
         font-weight: lighter;
+        font-size: 16px;
     }
 }
 
@@ -42,7 +44,7 @@ a {
     .MainHeadline {
         font-size: 22px !important; 
         text-align: center;
-        color: white !important;
+        color: #F8F3F0 !important;
     }
 }
 
@@ -1127,7 +1129,7 @@ section {
 
 .contact .php-email-form button[type=submit] {
     background: #fff;
-    border: 2px solid white;
+    border: 2px solid #F8F3F0;
     padding: 10px 24px;
     color: #5F2224;
     transition: 0.4s;
