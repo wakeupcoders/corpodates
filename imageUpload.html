@@ -31,43 +31,36 @@
 
 </head>
 
-<body style="background-color:#5F2224;">
+<body class="changeBackgroundColor">
     <main id="main">
-        <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
+        <!-- ======= Image Upload Section ======= -->
+        <section id="imageUpload" class="contact">
             <div class="container" data-aos="fade-up">
                 <br>
                 <br>
-
                 <div class="row">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
                         <div class="section-title">
-                            <h2 style="color: #F8F3F0;">We need few information about you to proceed ahead.</h2>
-                            <hr style="color: #F8F3F0;">
-
+                            <h2 class="bzeColorFont">We need few information about you to proceed ahead.</h2>
+                            <hr class="bzeColorFont">
                         </div>
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form"
-                            data-aos="fade-up">
+                        <form class="php-email-form" data-aos="fade-up">
                             <div class="form-group mt-3">
-                                <h5 style="color: #F8F3F0;">Image Upload 1</h5>
-
-                                <input placeholder="" type="file" class="form-control" name="email" id="email" required
+                                <h5 class="bzeColorFont">Image Upload 1</h5>
+                                <input type="file" class="form-control formInputFields" name="file1" id="file1" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <h5 class="bzeColorFont">Image Upload 2</h5>
+                                <input type="file" class="form-control formInputFields" name="file2" id="file2" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <h5 class="bzeColorFont">Image Upload 3</h5>
+                                <input type="file" class="form-control formInputFields" name="file3" id="file3" required
                                     style="border-radius: 7px;">
                             </div>
                             <div class="form-group mt-3">
-                                <h5 style="color: #F8F3F0;">Image Upload 2</h5>
-                                <input placeholder="" type="file" class="form-control" name="email" id="email" required
-                                style="border-radius: 7px;">
-                            </div>
-                            <div class="form-group mt-3">
-                                <h5 style="color: #F8F3F0;">Image Upload 3</h5>
-                                <input placeholder="" type="file" class="form-control" name="email" id="email" required
-                                style="border-radius: 7px;">
-                            </div>
-
-                            <div class="form-group mt-3">
-                                <p style="color:#F8F3F0; font-size: 12px;">Facing any issue? Let's contact support.</p>
+                                <p class="contactSupport">Facing any issue? let's contact support.</p>
                             </div>
                             <div class="my-3">
                                 <div class="loading">Loading</div>
@@ -76,27 +69,18 @@
                             </div>
                             <br>
                             <div class="text-center">
-                                <button type="submit" style="width:190px; font-size:14px;">I'm Good, Go Next</button>
-
-                                <br><br>
-
+                                <button type="submit" class="goNextButton">I'm Good, Go Next</button>
                             </div>
                             <br><br>
                         </form>
                     </div>
-
                     <div class="col-md-3"></div>
-
                 </div>
-
             </div>
         </section>
-        <!-- End Contact Section -->
-
+        <!-- End Image Upload Section -->
     </main>
     <!-- End #main -->
-
-
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -104,7 +88,7 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <!-- Template Main JS File -->
+    <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
 
 </body>
