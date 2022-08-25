@@ -17,6 +17,29 @@ body {
     background:#F8F3F0;
 }
 
+
+.bzeColorFont{
+    color: #F8F3F0 !important;
+}
+
+.contactSupport{
+    color: #F8F3F0 !important;
+    font-size: 12px !important;
+}
+
+.formInputFields{
+    border-radius: 7px !important;
+}
+
+.changeBackgroundColor{
+background-color: #5F2224 !important;
+}
+
+.goNextButton{
+    width:190px; 
+    font-size:14px;
+}
+
 a {
     color: #5F2224;
     text-decoration: none;
